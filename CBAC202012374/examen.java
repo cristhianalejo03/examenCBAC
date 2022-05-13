@@ -10,7 +10,7 @@ public class examen{
         int nivelregular=3;
         int nivelbasico=2;
         int nivel=1;
-        int notafinal=x;
+        float notafinal=x;
         x=11;
         float nota;
         float nota1;
@@ -32,28 +32,28 @@ public class examen{
             notacono=((float) (nota1 * 0.4));
             notaentrepersonal=((float) (nota2*0.35));
             notatespsicologico=(float) (nota3*0.25);
-            notafinal=(int) (notacono+notaentrepersonal+notatespsicologico);
+            notafinal=(float) ((notacono+notaentrepersonal+notatespsicologico)/3);
             mensaje="notafinal" +notafinal;
         }
         if (notafinal <= 17 && notafinal > 14) {
             notacono=(float) (nota1*0.4);
             notaentrepersonal=(float) (nota2*0.35);
             notatespsicologico=(float) (nota3*0.25);
-            notafinal=(int) (notacono+notaentrepersonal+notatespsicologico);
+            notafinal=(float) (notacono+notaentrepersonal+notatespsicologico);
             mensaje="notafinal" +notafinal;
         }
         else if (notafinal < 14 && notafinal >= 11);
             notacono=(float) (nota1*0.4);
             notaentrepersonal=(float) (nota2*0.35);
             notatespsicologico=(float) (nota3*0.25);
-            notafinal=(int) (notacono+notaentrepersonal+notatespsicologico);
+            notafinal=(float) (notacono+notaentrepersonal+notatespsicologico);
             mensaje="notafinal" +notafinal;
     
         if (notafinal >= 11) {
             notacono=(float) (nota1*0.4);
             notaentrepersonal=(float) (nota2*0.35);
             notatespsicologico=(float) (nota3*0.25);
-            notafinal=(int) (notacono+notaentrepersonal+notatespsicologico);
+            notafinal=(float) (notacono+notaentrepersonal+notatespsicologico);
             mensaje="notafinal" +notafinal;
         }
 
