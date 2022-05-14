@@ -11,6 +11,7 @@ public class examen{
         float nivelbasico=2;
         float nivelbajo=1;
         String nivel;
+        int x;
         float notafinal=x;
         x=11;
         float nota;
