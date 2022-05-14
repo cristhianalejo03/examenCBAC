@@ -6,10 +6,11 @@ public class examen{
     private static int x;
     public static void main(String[] args) {
         //declarar variables
-        int nivelavanzado=4;
-        int nivelregular=3;
-        int nivelbasico=2;
-        int nivel=1;
+        float nivelavanzado=4;
+        float nivelregular=3;
+        float nivelbasico=2;
+        float nivelbajo=1;
+        String nivel;
         float notafinal=x;
         x=11;
         float nota;
@@ -34,6 +35,8 @@ public class examen{
             notatespsicologico=(float) (nota3*0.25);
             notafinal=(float) ((notacono+notaentrepersonal+notatespsicologico)/3);
             mensaje="notafinal" +notafinal;
+            float nivelavanzado2 = nivelavanzado;
+           
         }
         if (notafinal <= 17 && notafinal > 14) {
             notacono=(float) (nota1*0.4);
@@ -41,6 +44,7 @@ public class examen{
             notatespsicologico=(float) (nota3*0.25);
             notafinal=(float) (notacono+notaentrepersonal+notatespsicologico);
             mensaje="notafinal" +notafinal;
+            float nivelregular2 = nivelregular;
         }
         else if (notafinal < 14 && notafinal >= 11);
             notacono=(float) (nota1*0.4);
@@ -48,6 +52,7 @@ public class examen{
             notatespsicologico=(float) (nota3*0.25);
             notafinal=(float) (notacono+notaentrepersonal+notatespsicologico);
             mensaje="notafinal" +notafinal;
+            float nivelbasico2 = nivelbasico;
     
         if (notafinal >= 11) {
             notacono=(float) (nota1*0.4);
@@ -55,12 +60,12 @@ public class examen{
             notatespsicologico=(float) (nota3*0.25);
             notafinal=(float) (notacono+notaentrepersonal+notatespsicologico);
             mensaje="notafinal" +notafinal;
+            float nivelbajo2 = nivelbajo;
         }
 
         //datos de salida
-        System.out.println("nota final"+notafinal);
-      
-
+        System.out.println("nota final si engresa a la iniversidad: "+notafinal);
+        System.out.println("nivelavanzado: ");
         
     }
 }
