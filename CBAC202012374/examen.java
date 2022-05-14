@@ -33,7 +33,7 @@ public class examen{
             notacono=((float) (nota1 * 0.4));
             notaentrepersonal=((float) (nota2*0.35));
             notatespsicologico=(float) (nota3*0.25);
-            notafinal=(float) ((notacono+notaentrepersonal+notatespsicologico)/3);
+            notafinal=(float) ((notacono+notaentrepersonal+notatespsicologico));
             mensaje="notafinal" +notafinal;
             float nivelavanzado2 = nivelavanzado;
            
