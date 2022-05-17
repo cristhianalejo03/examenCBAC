@@ -3,9 +3,9 @@ package CBAC202012374;
 import java.util.Scanner;
 
 /**
- * ReforzamientoU1
+ * practica
  */
-public class ReforzamientoU1 {
+public class practica {
     //comentario
     static Scanner leerTeclado=new Scanner(System.in);
 
@@ -36,5 +36,9 @@ public class ReforzamientoU1 {
         }
         // Datos de Salida 
         System.out.println(estado);
+    }
+    public static void main(String[] args) {
+        pregunta1DMP();
+        
     }
 }
